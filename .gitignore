@@ -1,0 +1,4 @@
+.env
+schema.sql
+__pycache__
+sqlite_db
