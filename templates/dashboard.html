@@ -18,6 +18,8 @@
   <body class="bg-light">
 
     {{ current_user.name }}
+    <br>
+    <a href="{{ url_for('logout') }}" class="btn btn-outline-success">Logout</a>
 
 
     <!-- Optional JavaScript -->
